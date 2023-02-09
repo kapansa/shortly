@@ -1,0 +1,15 @@
+.cta {
+      background-color: hsl(257, 27%, 26%);
+      padding: 80px 50px;
+      background-image: url("../../assets/bg-boost-desktop.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+}
+
+.cta h1 {
+      color: #fff;
+      font-size: 50px;
+      margin-bottom: 20px;
+}

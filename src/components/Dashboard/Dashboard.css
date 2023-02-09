@@ -1,0 +1,93 @@
+.dashboard {
+      background-color: #F0F1F6;
+      position: relative;
+      padding-bottom: 130px;
+      padding-top: 200px;
+}
+
+.short-links {
+      background-color: #fff;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 23px;
+      color: #232127;
+      max-width: 1440px;
+}
+
+.clipboard {
+      display: flex;
+}
+
+.clipboard p {
+      color: hsl(180, 66%, 49%);
+}
+
+.clipboard button {
+      border: none;
+      padding: 10px 30px;
+      border-radius: 10px;
+      background-color: hsl(180, 66%, 49%);
+      color: #fff;
+      font-size: 20px;
+      margin-left: 30px;
+}
+
+.clipboard button:hover {
+      cursor: pointer;
+      background-color: hsl(180, 67%, 47%);
+}
+
+.dashboard-text {
+      text-align: center;
+      padding: 0px 0 150px;
+      margin-top: 50px;
+}
+
+.dashboard-text h1 {
+      color: #232127;
+      font-size: 40px;
+}
+
+.dashboard-text p {
+      color: hsl(257, 7%, 63%);
+      font-size: 24px;
+}
+
+.dashboard-items {
+      display: flex;
+      justify-content: space-between;
+}
+
+.dashboard-items .item {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 65px 40px 40px;
+      flex-basis: 25%;
+}
+
+.item {
+      position: relative;
+}
+
+.item h3 {
+      color: #232127;
+      font-size: 30px;
+}
+
+.item p {
+      color: hsl(257, 7%, 63%);
+      font-size: 20px;
+      line-height: 30px;
+}
+
+.item img {
+      background-color: hsl(257, 27%, 26%);
+      border-radius: 100%;
+      padding: 30px;
+      position: absolute;
+      left: 30px;
+      top: -60px;
+}

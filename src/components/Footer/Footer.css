@@ -1,0 +1,35 @@
+footer {
+      background-color: #232027;
+      padding: 130px 0;
+      color: #fff;
+}
+
+footer ul {
+      list-style: none;
+}
+
+footer ul li {
+      color: hsl(257, 7%, 63%);
+      padding-top: 15px;
+      transition: all 1s;
+}
+
+footer ul li:hover {
+      color: hsl(180, 66%, 49%);
+      cursor: pointer;
+}
+
+.footer-content {
+      display: flex;
+      justify-content: space-between;
+}
+
+.social-icons img {
+      padding-left: 20px;
+      transition: all 0.5s;
+}
+
+.social-icons img:hover {
+      cursor: pointer;
+      fill: hsl(180, 66%, 49%) !important;
+}

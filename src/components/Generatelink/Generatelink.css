@@ -1,0 +1,64 @@
+.generateLink {
+      background-color: hsl(257, 27%, 26%);
+      border-radius: 10px;
+      padding: 70px 50px;
+      margin-top: 50px;
+      background-image: url("../../assets/bg-shorten-desktop.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: -150px;
+      left: 0;
+      right: 0;
+}
+
+.input-field input[type=text] {
+      border: 2px solid transparent;
+      padding: 25px 30px;
+      border-radius: 10px;
+      width: 70%;
+      font-size: 20px;
+      color: hsl(257, 7%, 63%);
+}
+
+#clear-list {
+      background-color: hsl(257, 7%, 63%) !important;
+}
+
+.input-field .outline {
+      border: 2px solid hsl(0, 87%, 67%) !important;
+}
+
+.input-field input[type=text]:focus {
+      outline: none;
+}
+
+.input-field button {
+      padding: 25px 30px;
+      border-radius: 10px;
+      border: none;
+      background-color: hsl(180, 66%, 49%);
+      color: #fff;
+      font-size: 20px;
+      margin-left: 20px;
+}
+
+.input-field button:hover {
+      cursor: pointer;
+}
+
+.input-field {
+      text-align: center;
+      position: relative;
+}
+
+i {
+      color: hsl(0, 87%, 67%);
+      display: inline-block;
+      position: absolute;
+      bottom: -50px;
+      left: 0;
+      right: 0;
+}
+

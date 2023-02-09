@@ -1,0 +1,39 @@
+.herosection {
+      display: flex;
+      justify-content: flex-start;
+      padding: 150px 0 260px;
+}
+
+.hero-left {
+      flex-basis: 50%;
+}
+
+.herosection h1 {
+      color: hsl(260, 8%, 14%);
+      font-size: 95px;
+      line-height: 110px;
+      font-weight: 700;
+}
+
+.herosection p {
+      color: hsl(0, 0%, 75%);
+      font-size: 24px;
+      margin: 20px 0;
+}
+
+.herosection button {
+      border: none;
+      background-color: hsl(180, 66%, 49%);
+      color: #fff;
+      padding: 15px 25px;
+      border-radius: 30px;
+      font-size: 25px;
+      font-weight: 700;
+}
+
+.herosection img { 
+      position: absolute;
+      right: -70px;
+      top: 150px;
+      width: 900px;
+}

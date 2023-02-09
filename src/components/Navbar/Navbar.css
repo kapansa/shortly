@@ -1,0 +1,44 @@
+header, .left, .right, header ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+header {
+      margin: 60px 0;
+}
+
+header ul {
+      list-style: none;
+}
+
+header li {
+      padding-left: 20px;
+      padding-right: 20px;
+      color: hsl(257, 7%, 63%);
+      font-weight: 500;
+      transition: all 0.5s;
+}
+
+header li:hover {
+      color: hsl(260, 8%, 14%);
+      cursor: pointer;
+}
+
+#sign-up {
+      background-color: hsl(180, 66%, 49%);
+      color: #fff;
+      border-radius: 30px;
+      padding: 5px 10px;
+      margin-left: 10px;
+      transition: all 1s;
+}
+
+#sign-up:hover {
+      background-color: hsl(180, 63%, 37%);
+      cursor: pointer;
+}
+
+.left img:hover {
+      cursor: pointer;
+}
