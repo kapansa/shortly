@@ -86,7 +86,7 @@ function Dashboard() {
                         id={`${index}`}
                         onClick={() => handleCopy(item.short_link, index)}
                       >
-                        Copy
+                        Copying
                       </button>
                     </div>
                   </div>
